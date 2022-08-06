@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <header>
+            <h1>NET<span>FLIX</span></h1>
+            <p>Thank you for signing up at Netflix. Tell us more about your self</p>
+        </header>
+        <main>
+
+            <article class="menu">
+                <form action="#">
+                    <article class="write">
+                        <label for="name" class="label">Name</label>
+                        <br>
+                        <input type="text" name="isim" id="name" placeholder="Enter your name"><br><br>
+                        <label for="age" class="label">Age</label>
+                        <br>
+                        <input type="number" name="yas" id="age" placeholder="Age" min="18" max="99"><br><br>
+                        <label for="email" class="label">E-Mail</label>
+                        <br>
+                        <input type="email" name="eposta" id="email" placeholder="Enter your e-mail"><br><br>
+                        <label for="content_type">Content Type</label>
+                        <br>
+                        <select name="icerik" id="content_type">
+                            <option value="series">Series</option>
+                            <option value="movies">Movies</option>
+                            <option value="tvshows">Tv Shows</option>
+                            <option value="cartoon">Cartoon</option>
+                            <option value="anime">Anime</option>
+                        </select>
+                    </article>
+
+                    <br><br>
+                    <article class="check">
+                        <p>Movie Type</p>
+                        <input type="checkbox" id="comedy" name="komedi">
+                        <label for="vehicle1"> Comedy</label><br>
+                        <input type="checkbox" id="action" name="aksiyon">
+                        <label for="vehicle2"> Action</label><br>
+                        <input type="checkbox" id="romance" name="romantik">
+                        <label for="vehicle3"> Romance</label>
+                        <br>
+                        <p>Gender</p>
+                        <p>Gender</p>
+                        <input type="radio" name="gender" id="male" value="erkek">
+                        <label for="male">Male</label><br>
+                        <input type="radio" name="gender" id="female" value="kadin">
+                        <label for="female">Female</label><br>
+                        <input type="radio" name="gender" id="other" value="diger">
+                        <label for="other">Other</label><br>
+                    </article>
+                    <p>Feed Back</p>
+
+                    <div class="yorum">
+
+                    <textarea name="gorus" id="feedback" cols="30" rows="5" class="yorumbutton" placeholder="Any Comment"></textarea>
+
+                    </div><br>
+
+                    <div class="onay">
+
+                    <input type="submit" value="Submit" id="onay">
+
+                    </div>
+                </form>
+            </article>
+
+        </main>
+    </div>
+</body>
+
+</html>

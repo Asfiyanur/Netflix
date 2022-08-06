@@ -1,0 +1,68 @@
+header span{
+    color: red;
+}
+
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:50px ;
+
+    
+}
+
+body{
+    background-image: url(./netfx.jpg);
+    color: white;
+}   
+
+.container{
+    margin: 20px 30px;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+main{
+    width: 300px;
+    background-color: rgba(0, 0, 0,0.7);
+    margin: auto;
+    padding: 20px;
+}
+
+main .menu .write input{
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px 5px;
+}
+
+#content_type{
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px 5px;
+}
+
+header{
+    width: auto;
+    text-align: center;
+}
+
+#onay{
+    background-color: red;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+#onay:hover{
+    background-color: rgb(247, 130, 130);
+    color: red;
+}
+
+.onay{
+    width: 100px;
+    margin: auto;
+}
+
+.yorumbutton{
+    width: 270px;
+    resize: none;
+    
+}
